@@ -1,0 +1,30 @@
+[
+  {
+    "name":"ABCD fertilizers company",
+    "products": "npk,urea,pesti,asas,adasd,sdhahfghjsabhsgfhjabdsvhsbhvbs",
+    "review":"3",
+    "avatarUrl":"www.safexchemicals.com/wp-content/uploads/2017/08/Insecticides-600x423.jpg"
+  },
+  {
+    "name":"DCBA fertilizers company",
+    "products": "npk,urea,pesti,asas,tomato,adasd",
+    "review":"2",
+    "avatarUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbYWUzQoIiDpIZUOkO6qu9PQeC0aQokM82syr2YggzNte6nO7"
+
+  },
+  {
+    "name":"BCD fertilizers company",
+    "products": "npk,urea,pesti,asas,adasd,dfg,dg",
+    "review":"3",
+    "avatarUrl":"http://findcompany.in/wp-content/uploads/2014/07/Insecticides-India-Ltd1-424x282.jpg"
+
+  },
+  {
+    "name":"CD fertilizers company",
+    "products": "npk,urea,pesti,asas,adasd",
+    "review":"3",
+    "avatarUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6IoGde449blsQTH95eZXQ7keLqS8VNcy335AqEn__F263cEb"
+
+  }
+
+]
