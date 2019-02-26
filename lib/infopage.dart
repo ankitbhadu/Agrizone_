@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:core';
 //import 'app_bar.dart';
 import 'main.dart';
-import '';
+
 int cno;
 class InfoPage extends StatefulWidget {
   InfoPage(int data){
