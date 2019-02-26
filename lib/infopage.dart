@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:core';
+//import 'app_bar.dart';
+import 'main.dart';
+import '';
 int cno;
 class InfoPage extends StatefulWidget {
   InfoPage(int data){
@@ -18,10 +21,12 @@ class _InfoPageState extends State<InfoPage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(title: new Text("Company Information"),),
+
       floatingActionButton: FloatingActionButton.extended(onPressed: null, icon: new Icon(Icons.add), label: new Text("Join")),
-      backgroundColor: Colors.white,
-      body: new Center(
+      appBar:abcd,
+
+      body:
+            new Center(
 
         child: new Center(
           child: new FutureBuilder(
@@ -68,5 +73,6 @@ class _InfoPageState extends State<InfoPage> {
         ),
       ),
     );
+
   }
 }

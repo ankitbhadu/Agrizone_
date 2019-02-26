@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'infopage.dart';
+import 'app_bar.dart';
 
 class HomePageFarmersbuy extends StatefulWidget {
 
@@ -13,8 +14,7 @@ class _HomePageFarmersbuyState extends State<HomePageFarmersbuy> {
   
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: new Center(
+    return new Center(
         child: new FutureBuilder(
           future: DefaultAssetBundle.of(context).loadString('load_json/companies.json'),
           builder: (context,snapshot){
@@ -29,7 +29,8 @@ class _HomePageFarmersbuyState extends State<HomePageFarmersbuy> {
                        crossAxisAlignment: CrossAxisAlignment.end,
                        children: <Widget>[
 
-                     new ListTile(onTap: (){Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context)=>new InfoPage(index)));},
+                     new ListTile(onTap:
+                     (){Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context)=>new InfoPage(index)));},
 
                          leading: new CircleAvatar(
                          foregroundColor: Theme.of(context).primaryColor,
@@ -97,7 +98,7 @@ class _HomePageFarmersbuyState extends State<HomePageFarmersbuy> {
 
           }
         ),
-      )
+
     );
   }
 }
